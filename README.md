@@ -1,4 +1,4 @@
-image:https://api.travis-ci.org/sshaaf/docker-mailcatcher.svg?branch=development[Build Status,link=https://travis-ci.org/sshaaf/docker-mailcatcher]
+![Build Status,link=https://travis-ci.org/sshaaf/docker-mailcatcher](https://api.travis-ci.org/sshaaf/docker-mailcatcher.svg?branch=development)
 =========
 
 A container image for [MailCatcher](http://mailcatcher.me/)
