@@ -3,6 +3,6 @@ MAINTAINER sshaaf@redhat.com
 
 RUN gem install mailcatcher
 
-EXPOSE 1025 8080
+EXPOSE 8080 1025
 
-ENTRYPOINT ["mailcatcher", "-f", "--ip", "0.0.0.0", "--http-port","80"]
+ENTRYPOINT ["mailcatcher", "-f", "--ip", "0.0.0.0", "--http-port","8080"]

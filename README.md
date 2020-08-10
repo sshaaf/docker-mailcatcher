@@ -11,7 +11,7 @@ MailCatcher is a light-weight simple SMTP server that catches all messages sent 
 * run the container locally
 
 ```
-    docker run -p 80:80 -p 1025:1025 quay.io/sshaaf/mailcatcher                                                            
+    docker run -p 8080:8080 -p 1025:1025 quay.io/sshaaf/mailcatcher                                                            
 ```
 
 * run it on Openshift
